@@ -9,7 +9,7 @@ int n;
 scanf("%d",&n);
 ll s=0;
 for(int i=1;i<=n;i++){
-if(i%3==0){//tính tất cả các số tự nhiên n chia hết cho 3
+if(i%3==0){//tính tất cả các số tự nhiên i chia hết cho 3
 s+=i;
 }
 }
