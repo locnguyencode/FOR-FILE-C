@@ -1,4 +1,10 @@
 Tính tổng S(n) = 1 + 2 + 3 + ... + n
+Input 01
+Copy
+6
+Output 01
+Copy
+21
 
 #include<stdio.h>
 #include<math.h>
