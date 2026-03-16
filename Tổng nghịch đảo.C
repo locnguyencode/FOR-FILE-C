@@ -1,6 +1,12 @@
 Tính tổng : S(n) =1+1/2+1/3+1/4+….+1/n
 
 Lưu ý : Lấy 1.0 / i khi tính toán thay vì 1 / i
+Input 01
+Copy
+2
+Output 01
+Copy
+1.500
 
 #include<stdio.h>
 #include<math.h>
