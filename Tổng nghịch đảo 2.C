@@ -1,4 +1,10 @@
 Tính tổng : S(n) = 1/2 + 1/4 + 1/6 + 1/8 +…….+ 1/(2n)
+Input 01
+Copy
+993856
+Output 01
+Copy
+7.19328
 
 #include<stdio.h>
 #include<math.h>
