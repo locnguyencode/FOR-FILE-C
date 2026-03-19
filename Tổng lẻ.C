@@ -1,4 +1,9 @@
 Nhập vào n nguyên dương không qua 10^6, tính và in tổng sau ra màn hình. S = 1+3+5+7+.....+2*n-1
+input 
+4
+output
+16
+
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
