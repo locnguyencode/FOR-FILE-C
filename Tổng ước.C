@@ -9,21 +9,28 @@ Output 01
 typedef long long ll;
 typedef float f;
 typedef double d;
-int main(){
-ll n;
-scanf("%lld",&n);
+#include<stdio.h>
+#include<math.h>
+typedef long long ll;
+
+long long tonguoc(ll n){
 ll s=0;
 for(int i=1;i<=sqrt(n);i++){
-if(n%i==0){//i là ước của n
+if(n%i==0){
 s+=i;
-if(i!=n/i){
+if(i!=n/i)
 s+=n/i;
 }
 }
+return s;
 }
-printf("%lld",s);
+int main(){
+long long n;
+scanf("%lld",&n);
+printf("%lld",tonguoc(n));
 return 0;
 }
+
 
 
 
