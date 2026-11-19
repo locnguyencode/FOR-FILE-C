@@ -9,10 +9,6 @@ Output 01
 typedef long long ll;
 typedef float f;
 typedef double d;
-#include<stdio.h>
-#include<math.h>
-typedef long long ll;
-
 long long tonguoc(ll n){
 ll s=0;
 for(int i=1;i<=sqrt(n);i++){
