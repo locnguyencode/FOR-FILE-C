@@ -12,7 +12,7 @@ typedef double d;
 long long tonguoc(ll n){
 ll s=0;
 for(int i=1;i<=sqrt(n);i++){
-if(n%i==0){
+if(n%i==0){//i là ước số của n(n%i==0)
 s+=i;
 if(i!=n/i)
 s+=n/i;
